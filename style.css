@@ -1,0 +1,145 @@
+.nav-menu {
+    border-top: 2px solid purple;
+    background:	#fbfafa;
+    border-bottom: 1px solid rgb(169, 169, 169);
+    margin: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+
+.li-menu {
+    color: purple;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+a {
+    color: rgb(86, 85, 85);
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+  }
+
+a:hover {
+    color: purple;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.gray-text {
+    color: rgb(86, 85, 85);
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.purple-text {
+    color: purple;
+}
+
+.profile-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    line-height: 30px;
+    flex: 1;
+    border-right:1px solid rgb(169, 169, 169);
+}
+
+.circle-image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+}
+
+.circle-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-info {
+    padding: 50px;
+    flex: 4;
+    min-height: 500px;
+}
+
+.actual-list {
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.link {
+    display: inline;
+    color: purple;
+}
+
+b {
+    color: rgb(46, 45, 45);
+}
+
+progress {
+    display: flex;
+    width: 100%;
+    padding: 13px;
+}
+
+.in-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background:	#fbfafa;
+    margin: 10px;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: rgb(86, 85, 85);
+    line-height: 30px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}
+
+@media only screen and (max-width: 800px) {
+    .flex-container {
+      padding: 10px;
+      flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .profile-side {
+        border-right: none;
+        border-bottom: 1px solid rgb(169, 169, 169);
+    }
+}
